@@ -54,7 +54,7 @@ function App() {
                     nome={elemento.nome}
                     corPrimaria={elemento.corPrimaria}
                     corSecundaria={elemento.corSecundaria}
-                    personagens={personagens.filter(personagem => personagem.elemento == elemento.nome)}
+                    personagens={personagens.filter(personagem => personagem.elemento === elemento.nome)}
               />)}
       <Rodape />
     </div>
