@@ -1,0 +1,16 @@
+.lista-suspensa label{
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.lista-suspensa select{
+    background-color: #fff;
+    box-shadow: 0.625rem 0.625rem 1.875rem rgba(0, 0, 0, 0.6);
+    width: 100%;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    /* Quando não queremos que o input passe do tamanho do site, colocar esse código css */
+    box-sizing: border-box;
+}
