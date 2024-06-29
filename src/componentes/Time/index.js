@@ -4,6 +4,7 @@ import './Time.css';
 const Time = (props) => {
     const fundoCard = { backgroundColor: props.corPrimaria }
     const corCard = { backgroundColor: props.corSecundaria }
+    const corFonte = { color: props.corSecundaria }
     return(
        (props.personagens.length > 0) ? 
         <section className='time' style={fundoCard}>
@@ -18,6 +19,7 @@ const Time = (props) => {
                         arma={personagem.arma}
                         imagem={personagem.imagem}
                         estilo={corCard}
+                        corFonte={corFonte}
                     /> )}
             </div>
         </section>
